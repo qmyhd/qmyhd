@@ -8,6 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: readme
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -28,13 +29,13 @@ jobs:
       - name: Update README file
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          USER_NAME: ${{ secrets.USER_NAME }}
+          USER_NAME: ${{ vars.USER_NAME }}
         run: python today.py
       - name: Commit
         run: |-
           git add .
           git diff
-          git config --global user.email "github-actions-bot@andrew6rant.github.io"
-          git config --global user.name "Andrew6rant/GitHub-Actions-Bot"
+          git config --global user.email "github-actions-bot@qmyhd.github.io"
+          git config --global user.name "qmyhd/GitHub-Actions-Bot"
           git commit -m "Updated README" -a || echo "No changes to commit"
           git push
