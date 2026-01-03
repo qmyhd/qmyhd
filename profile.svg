@@ -1,0 +1,44 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="circleView">
+      <circle cx="200" cy="200" r="200" />
+    </clipPath>
+  </defs>
+  
+  <rect width="400" height="400" fill="#e8f4f8" />
+  <circle cx="350" cy="50" r="120" fill="#dceef5" />
+  <circle cx="50" cy="350" r="80" fill="#dceef5" />
+
+  <g clip-path="url(#circleView)">
+    
+    <rect x="165" y="240" width="70" height="80" fill="#dcb998" />
+
+    <path d="M165,300 L200,340 L235,300 L240,280 L200,310 L160,280 Z" fill="#cce3f7" />
+    <path d="M160,280 L200,310 L165,300 Z" fill="#e6f2ff" /> <path d="M240,280 L200,310 L235,300 Z" fill="#e6f2ff" /> <path d="M200,310 L185,420 L215,420 Z" fill="#4a5568" />
+    <path d="M190,340 L210,335" stroke="#718096" stroke-width="2" />
+    <path d="M188,360 L212,355" stroke="#718096" stroke-width="2" />
+    <path d="M187,380 L213,375" stroke="#718096" stroke-width="2" />
+
+    <path d="M80,420 L160,300 L160,280 C130,290 80,320 80,420 Z" fill="#1c3d72" /> <path d="M320,420 L240,300 L240,280 C270,290 320,320 320,420 Z" fill="#1c3d72" /> <path d="M160,300 L160,420 L240,420 L240,300 L200,340 Z" fill="#152e56" /> <path d="M130,160 C130,260 160,310 200,310 C240,310 270,260 270,160 C270,100 240,70 200,70 C160,70 130,100 130,160 Z" fill="#dcb998" />
+
+    <ellipse cx="128" cy="180" rx="10" ry="18" fill="#dcb998" />
+    <ellipse cx="272" cy="180" rx="10" ry="18" fill="#dcb998" />
+
+    <path d="M132,200 C135,260 160,310 200,310 C240,310 265,260 268,200 L260,200 C255,240 230,280 200,280 C170,280 145,240 140,200 Z" fill="#2d2d2d" opacity="0.9" />
+    <path d="M170,255 C180,265 220,265 230,255" stroke="#2d2d2d" stroke-width="3" fill="none" opacity="0.8" /> <path d="M170,245 C170,245 185,270 215,270 C245,270 230,245 230,245 Z" fill="#fff" /> <path d="M170,245 C185,270 215,270 230,245" stroke="#a67c52" stroke-width="2" fill="none" /> <path d="M200,200 L195,225 L205,225 Z" fill="#c7a485" />
+
+    <ellipse cx="170" cy="180" rx="8" ry="5" fill="#2d2d2d" />
+    <ellipse cx="230" cy="180" rx="8" ry="5" fill="#2d2d2d" />
+    
+    <path d="M155,165 Q170,155 185,165" stroke="#1a1a1a" stroke-width="5" fill="none" stroke-linecap="round" />
+    <path d="M215,165 Q230,155 245,165" stroke="#1a1a1a" stroke-width="5" fill="none" stroke-linecap="round" />
+
+    <g stroke="#4a4a4a" stroke-width="2" fill="none">
+      <rect x="145" y="165" width="50" height="35" rx="10" ry="10" /> <rect x="205" y="165" width="50" height="35" rx="10" ry="10" /> <line x1="195" y1="175" x2="205" y2="175" stroke-width="2" /> <line x1="145" y1="175" x2="130" y2="170" stroke-width="1.5" /> <line x1="255" y1="175" x2="270" y2="170" stroke-width="1.5" /> </g>
+
+    <path d="M130,160 C125,120 140,60 200,60 C260,60 275,120 270,160 C275,130 280,90 250,60 C220,40 180,40 150,60 C120,90 125,130 130,160 Z" fill="#1a1a1a" />
+    <path d="M150,70 Q160,50 180,60" stroke="#1a1a1a" stroke-width="2" fill="none" />
+    <path d="M190,60 Q200,40 220,60" stroke="#1a1a1a" stroke-width="2" fill="none" />
+
+  </g>
+</svg>
