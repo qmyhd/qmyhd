@@ -11,7 +11,7 @@ import hashlib
 # Repository permissions: read:Commit statuses, read:Contents, read:Issues, read:Metadata, read:Pull Requests
 # Issues and pull requests permissions not needed at the moment, but may be used in the future
 HEADERS = {"Authorization": f"Bearer {os.environ['ACCESS_TOKEN']}"}
-USER_NAME = os.environ['USER_NAME'] # 'Andrew6rant'
+USER_NAME = os.environ['USER_NAME'] 
 QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
 
 
@@ -330,6 +330,7 @@ def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib
     justify_format(root, 'loc_data', loc_data[2], 9)
     justify_format(root, 'loc_add', loc_data[0])
     justify_format(root, 'loc_del', loc_data[1], 7)
+    justify_format(root, 'age_data', age_data, 22)
     tree.write(filename, encoding='utf-8', xml_declaration=True)
 
 
